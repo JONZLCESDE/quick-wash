@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+   
+ background: url('/images/fondoUno.webp') no-repeat center center/cover;
+    position: relative;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    background: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.5);
+    width: 700px;
+    color: white;
+}
+
+.left-side {
+    flex: 1;
+    text-align: center;
+    padding-right: 20px;
+    border-right: 2px solid red;
+}
+
+.operator-icon {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.right-side {
+    flex: 2;
+    padding-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: red;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px;
+    background: red;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background: darkred;
+}
+
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid red;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}

@@ -14,7 +14,7 @@ function History() {
               </p>
 
               <form id="form">
-                <label for="placa">* Placa</label>
+                <label htmlFor="placa">* Placa</label>
                 <input type="text" id="placa" placeholder="KPS123" required />
                 <button type="button" id="btn">
                   Consultar
