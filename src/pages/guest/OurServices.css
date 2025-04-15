@@ -1,0 +1,54 @@
+.fondoSeccionTres {
+  background-color: #1a1a2e;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.titulo-seccion {
+  font-size: 2rem;
+  color: white;
+  font-weight: 500;
+}
+
+.contenedor-servicios {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.grid-servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.grupo-servicio {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.imagen-servicio {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ccc;
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.grupo-servicio:hover .imagen-servicio {
+  opacity: 0.75;
+}
+
+.titulo-servicio {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: white;
+  font-weight: 500;
+}
+
+.precio-servicio {
+  font-size: 1.125rem;
+  color: white;
+}
+

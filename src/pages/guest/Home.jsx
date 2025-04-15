@@ -1,9 +1,9 @@
-import "./Home.css";
-import MenuGuest from "../../components/menu/MenuGuest";
-import WhoWeAre from "./WhoWeAre";
-import OurServices from "./OurServices";
-import History from "./History";
 import "two-up-element";
+import MenuGuest from "../../components/menu/MenuGuest";
+import History from "./History";
+import "./Home.css";
+import OurServices from "./OurServices";
+import WhoWeAre from "./WhoWeAre";
 
 function Home() {
   return (
