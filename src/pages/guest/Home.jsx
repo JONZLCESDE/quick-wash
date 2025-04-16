@@ -1,6 +1,14 @@
 import "two-up-element";
-import MenuGuest from "../../components/menu/MenuGuest";
+
+
+// import MenuGuest from "../../components/menu/MenuGuest";
+
+
+
 import History from "./History";
+
+import LoginAdmin from "../../components/auth/LoginAdmin";
+import Footer from "../../components/footer/Footer";
 import "./Home.css";
 import OurServices from "./OurServices";
 import WhoWeAre from "./WhoWeAre";
@@ -8,7 +16,7 @@ import WhoWeAre from "./WhoWeAre";
 function Home() {
   return (
     <>
-      <MenuGuest />
+      
       <main>
         <section id="seccionNumeroUno">
           <div>
@@ -19,6 +27,7 @@ function Home() {
         <WhoWeAre />
         <OurServices />
         <History />
+        <LoginAdmin />
 
         <section id="seccionNumeroCinco">
           <div>
@@ -26,6 +35,7 @@ function Home() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }
